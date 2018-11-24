@@ -1,0 +1,81 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url("~/Images/img/parks/cvnp.jpg")
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+img.ParkImage {
+    width: 200px;
+}
+
+.parkdata {
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    
+}
+
+.button {
+    position: relative;
+    top: 580px;
+    right: 202px;
+}
+
+.logo {
+    width: 10px;
+}
+
+#weather {
+    column-count: 5;
+    column-gap: 20px;
+    column-width: 100px;
+    padding: 35px;
+    column-rule-style: groove;
+    column-rule-color: powderblue;
+    column-rule-width: thin;
+    border: groove powderblue;
+}
+
+#Today {
+    column-span: 1;
+    font-size: 72px;
+}
+
+.weatherpic {
+    width: 200px;
+
+}
